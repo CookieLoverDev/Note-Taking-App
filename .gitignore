@@ -1,0 +1,108 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono)
+mono_crash.*
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]v7/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Ll]ogs_*/ 
+
+# Include if your tool processes these directories and you have git extensions for it
+# .dotnet/
+
+# StyleCop
+StyleCop.Cache
+
+# Files built by Visual Studio
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio for Mac
+.vscode/
+.vscode/extensions.json
+
+# VS Code
+.history/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/snippets/
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+.idea/misc.xml
+.idea/*.iml
+
+# Xamarin
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.apk
+*.aab
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Node.js modules
+node_modules/
+
+# Yarn
+.yarn/
+.pnp.*
+.yarnrc.yml
+__ivy_ngcc__
+
+# Build artifacts
+build/
+dist/
+
+# IDE config
+.idea/
