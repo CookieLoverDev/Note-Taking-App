@@ -12,48 +12,54 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JoskayaMobila
-build_property.ProjectDir = C:\Users\Victus\source\repos\JoskayaMobila\JoskayaMobila\
+build_property.ProjectDir = C:\Classes\Coding\Github\Note-Taking-App\JoskayaMobila\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/App.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/AppShell.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/Resources/Styles/Colors.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/Resources/Styles/Styles.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/Views/AboutPage.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/Views/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.Views.AboutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/Views/AllNotes.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/Views/AllNotes.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.Views.AllNotes.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AllNotes.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AllNotes.xaml
 
-[C:/Users/Victus/source/repos/JoskayaMobila/JoskayaMobila/Views/NotePage.xaml]
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/Views/NotePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.Views.NotePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NotePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NotePage.xaml
+
+[C:/Classes/Coding/Github/Note-Taking-App/JoskayaMobila/Views/SettingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JoskayaMobila.Views.SettingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SettingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SettingPage.xaml

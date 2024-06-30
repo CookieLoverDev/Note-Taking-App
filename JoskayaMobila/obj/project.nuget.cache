@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xeWv6O5CaUM=",
+  "dgSpecHash": "g9WaVwxuRbI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victus\\source\\repos\\JoskayaMobila\\JoskayaMobila\\JoskayaMobila.csproj",
+  "projectFilePath": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\JoskayaMobila.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victus\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Victus\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

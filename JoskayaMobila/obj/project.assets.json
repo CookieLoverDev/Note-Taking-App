@@ -32924,11 +32924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victus\\source\\repos\\JoskayaMobila\\JoskayaMobila\\JoskayaMobila.csproj",
+      "projectUniqueName": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\JoskayaMobila.csproj",
       "projectName": "JoskayaMobila",
-      "projectPath": "C:\\Users\\Victus\\source\\repos\\JoskayaMobila\\JoskayaMobila\\JoskayaMobila.csproj",
+      "projectPath": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\JoskayaMobila.csproj",
       "packagesPath": "C:\\Users\\Victus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victus\\source\\repos\\JoskayaMobila\\JoskayaMobila\\obj\\",
+      "outputPath": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

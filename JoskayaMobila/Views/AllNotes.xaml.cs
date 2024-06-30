@@ -7,6 +7,7 @@ public partial class AllNotes : ContentPage
 		InitializeComponent();
 
 		BindingContext = new Models.AllNotes();
+        
 	}
 
     protected override void OnAppearing()
@@ -29,5 +30,13 @@ public partial class AllNotes : ContentPage
 
             notesCollection.SelectedItem = null;
         }
+    }
+
+    private void Change_Theme(object sender, EventArgs e)
+    {
+        if (Application.Current.UserAppTheme == AppTheme.Dark)
+            Application.Current.UserAppTheme = AppTheme.Light;
+        else
+            Application.Current.UserAppTheme = AppTheme.Dark;
     }
 }

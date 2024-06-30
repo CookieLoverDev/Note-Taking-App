@@ -1,1 +1,1 @@
-C:\Users\Victus\source\repos\JoskayaMobila\JoskayaMobila\JoskayaMobila.csproj;x64
+C:\Classes\Coding\Github\Note-Taking-App\JoskayaMobila\JoskayaMobila.csproj;x64
