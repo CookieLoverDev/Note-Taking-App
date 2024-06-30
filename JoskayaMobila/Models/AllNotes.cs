@@ -17,11 +17,12 @@ internal class AllNotes
 
         IEnumerable<Note> notes = Directory
 
-                                    .EnumerateFiles(appDataPath, "*.notes.txt")
+                                    .EnumerateFiles(appDataPath, "*.txt")
 
                                     .Select(filename => new Note()
                                     {
                                         Filename = filename,
+                                        Title = Path.GetFileNameWithoutExtension(filename),
                                         Text = File.ReadAllText(filename),
                                         Date = File.GetLastWriteTime(filename)
                                     })

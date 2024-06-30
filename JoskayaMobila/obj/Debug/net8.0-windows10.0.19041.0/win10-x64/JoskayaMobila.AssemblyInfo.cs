@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JoskayaMobila")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7fe2411332b81e2fcaad6f28237494a87f7b3f80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+783bb560cba5d23c23174e11e608dd639626cf5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("JoskayaMobila")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JoskayaMobila")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

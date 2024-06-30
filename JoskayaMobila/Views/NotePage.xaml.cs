@@ -3,6 +3,8 @@ namespace JoskayaMobila.Views;
 [QueryProperty(nameof(ItemId), nameof(ItemId))]
 public partial class NotePage : ContentPage
 {
+    private string appDataPath = FileSystem.AppDataDirectory;
+
     public string ItemId
     {
         set { LoadNote(value); }
@@ -12,8 +14,7 @@ public partial class NotePage : ContentPage
 	{
 		InitializeComponent();
 		
-		string appDataPath = FileSystem.AppDataDirectory;
-		string randomFileName = $"{Path.GetRandomFileName()}.notes.txt";
+		string randomFileName = $"{Path.GetRandomFileName()}.txt";
 
 		LoadNote(Path.Combine(appDataPath, randomFileName));
 	}
@@ -21,8 +22,15 @@ public partial class NotePage : ContentPage
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Models.Note note)
-            File.WriteAllText(note.Filename, TextEditor.Text);
+        {
+            File.Delete(note.Filename);
 
+            string newFileName = Path.Combine(appDataPath, $"{note.Title}.txt");
+            note.Filename = newFileName;
+
+            File.WriteAllText(note.Filename, TextEditor.Text);
+        }
+        
         await Shell.Current.GoToAsync("..");
     }
 
@@ -30,7 +38,6 @@ public partial class NotePage : ContentPage
     {
         if (BindingContext is Models.Note note)
         {
-            // Delete the file.
             if (File.Exists(note.Filename))
                 File.Delete(note.Filename);
         }
@@ -47,6 +54,7 @@ public partial class NotePage : ContentPage
 		{
 			noteModel.Date = File.GetCreationTime(fileName);
 			noteModel.Text = File.ReadAllText(fileName);
+            noteModel.Title = Path.GetFileNameWithoutExtension(fileName);
 		}
 
 		BindingContext = noteModel;

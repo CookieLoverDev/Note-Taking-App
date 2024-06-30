@@ -5,6 +5,6 @@
              Title="Settings">
     <VerticalStackLayout Spacing="10" Margin="10">
         <Label FontSize="22" FontAttributes="Bold" Text="Dark Theme" />
-        <Switch IsToggled="False" Toggled="DarkTheme_On" HorizontalOptions="Start"/>
+        <Switch IsToggled="True" Toggled="DarkTheme_On" HorizontalOptions="Start"/>
     </VerticalStackLayout>
 </ContentPage>
