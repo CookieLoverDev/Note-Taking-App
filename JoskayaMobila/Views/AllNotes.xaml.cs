@@ -10,6 +10,13 @@ public partial class AllNotes : ContentPage
         
 	}
 
+    private void OnTextChanged(object sender, EventArgs e)
+    {
+        var viewModel = (Models.AllNotes)BindingContext;
+        viewModel.FilterNotes(searchBar.Text);
+        
+    }
+
     protected override void OnAppearing()
     {
         ((Models.AllNotes)BindingContext).LoadNotes();

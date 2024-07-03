@@ -5,6 +5,7 @@ namespace JoskayaMobila.Models;
 internal class AllNotes
 {
     public ObservableCollection<Note> Notes { get; set; } = new ObservableCollection<Note>();
+    private List<Note> allNotes = new List<Note>();
 
     public AllNotes() =>
         LoadNotes();
@@ -15,7 +16,7 @@ internal class AllNotes
 
         string appDataPath = FileSystem.AppDataDirectory;
 
-        IEnumerable<Note> notes = Directory
+        allNotes = Directory
 
                                     .EnumerateFiles(appDataPath, "*.txt")
 
@@ -27,9 +28,24 @@ internal class AllNotes
                                         Date = File.GetLastWriteTime(filename)
                                     })
 
-                                    .OrderBy(note => note.Date);
+                                    .OrderByDescending(note => note.Date)
+                                    .ToList();
 
-        foreach (Note note in notes)
+        foreach (Note note in allNotes)
             Notes.Add(note);
+    }
+
+    public void FilterNotes(string query)
+    {
+        if (string.IsNullOrWhiteSpace(query)) LoadNotes();
+        else
+        {
+            var filteredNotes = allNotes.Where(note => note.Title.Contains(query, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            Notes.Clear();
+
+            foreach (var note in filteredNotes)
+                Notes.Add(note);
+        }
     }
 }

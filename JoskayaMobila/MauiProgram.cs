@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-
 namespace JoskayaMobila
 {
     public static class MauiProgram
