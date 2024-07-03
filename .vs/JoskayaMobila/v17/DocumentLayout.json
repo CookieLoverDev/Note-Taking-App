@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|c:\\classes\\coding\\github\\note-taking-app\\joskayamobila\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|solutionrelative:joskayamobila\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|c:\\classes\\coding\\github\\note-taking-app\\joskayamobila\\views\\allnotes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|solutionrelative:joskayamobila\\views\\allnotes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|c:\\classes\\coding\\github\\note-taking-app\\joskayamobila\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|solutionrelative:joskayamobila\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|c:\\classes\\coding\\github\\note-taking-app\\joskayamobila\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|solutionrelative:joskayamobila\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80DB34C0-FA3A-4C29-8AAC-D7C6EBED450C}|JoskayaMobila\\JoskayaMobila.csproj|c:\\classes\\coding\\github\\note-taking-app\\joskayamobila\\views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -74,23 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "JoskayaMobila\\MauiProgram.cs",
-              "ToolTip": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\MauiProgram.cs",
-              "RelativeToolTip": "JoskayaMobila\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T20:26:15.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Note.cs",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Models\\Note.cs",
               "RelativeDocumentMoniker": "JoskayaMobila\\Models\\Note.cs",
@@ -98,12 +86,11 @@
               "RelativeToolTip": "JoskayaMobila\\Models\\Note.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T15:24:27.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T15:24:27.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AllNotes.cs",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Models\\AllNotes.cs",
               "RelativeDocumentMoniker": "JoskayaMobila\\Models\\AllNotes.cs",
@@ -111,8 +98,7 @@
               "RelativeToolTip": "JoskayaMobila\\Models\\AllNotes.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAYwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T16:16:00.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:16:00.797Z"
             },
             {
               "$type": "Document",
@@ -128,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AllNotes.xaml",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Views\\AllNotes.xaml",
               "RelativeDocumentMoniker": "JoskayaMobila\\Views\\AllNotes.xaml",
@@ -141,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NotePage.xaml",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Views\\NotePage.xaml",
               "RelativeDocumentMoniker": "JoskayaMobila\\Views\\NotePage.xaml",
@@ -149,12 +135,11 @@
               "RelativeToolTip": "JoskayaMobila\\Views\\NotePage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T16:58:31.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T16:58:31.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SettingPage.xaml",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Views\\SettingPage.xaml",
               "RelativeDocumentMoniker": "JoskayaMobila\\Views\\SettingPage.xaml",
@@ -162,12 +147,11 @@
               "RelativeToolTip": "JoskayaMobila\\Views\\SettingPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-30T10:39:23.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T10:39:23.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NotePage.xaml.cs",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Views\\NotePage.xaml.cs",
               "RelativeDocumentMoniker": "JoskayaMobila\\Views\\NotePage.xaml.cs",
@@ -175,12 +159,11 @@
               "RelativeToolTip": "JoskayaMobila\\Views\\NotePage.xaml.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwC0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T14:50:41.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T14:50:41.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AllNotes.xaml.cs",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Views\\AllNotes.xaml.cs",
               "RelativeDocumentMoniker": "JoskayaMobila\\Views\\AllNotes.xaml.cs",
@@ -188,12 +171,11 @@
               "RelativeToolTip": "JoskayaMobila\\Views\\AllNotes.xaml.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T16:24:19.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:24:19.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "About.cs",
               "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\Models\\About.cs",
               "RelativeDocumentMoniker": "JoskayaMobila\\Models\\About.cs",
@@ -201,7 +183,20 @@
               "RelativeToolTip": "JoskayaMobila\\Models\\About.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T15:25:27.379Z"
+              "WhenOpened": "2024-06-27T15:25:27.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "JoskayaMobila\\MauiProgram.cs",
+              "ToolTip": "C:\\Classes\\Coding\\Github\\Note-Taking-App\\JoskayaMobila\\MauiProgram.cs",
+              "RelativeToolTip": "JoskayaMobila\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:26:15.665Z"
             },
             {
               "$type": "Document",

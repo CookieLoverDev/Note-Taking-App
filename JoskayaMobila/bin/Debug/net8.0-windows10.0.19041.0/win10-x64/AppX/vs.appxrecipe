@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Classes\Coding\Github\Note-Taking-App\JoskayaMobila\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-03T10:02:32.190</Modified>
+      <Modified>2024-07-03T13:38:15.044</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Classes\Coding\Github\Note-Taking-App\JoskayaMobila\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\JoskayaMobila.dll">
       <PackagePath>JoskayaMobila.dll</PackagePath>
-      <Modified>2024-07-03T10:02:31.997</Modified>
+      <Modified>2024-07-03T13:38:14.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Classes\Coding\Github\Note-Taking-App\JoskayaMobila\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>JoskayaMobila.exe</PackagePath>
-      <Modified>2024-07-03T10:02:32.000</Modified>
+      <Modified>2024-07-03T13:38:14.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Classes\Coding\Github\Note-Taking-App\JoskayaMobila\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
